@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BaiVietDetailActivity"
+    android:background="@color/colorBackgroundRegister">
+
+    <include layout="@layout/toolbar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/txtTieuDeBVDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Captain America: Trái tim của một người hùng"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/imgTacGiaBV"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/baiviet"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/txtTacGiaBV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lê Quốc Hưng"
+                    android:textColor="@color/colorTextColor"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/txtNgayDangBV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11/11/2019"
+                    android:textColor="@color/colorBorder"
+                    android:textSize="18dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/btnLoaiBV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Phân tích"
+                    android:background="@drawable/border_button"
+                    android:textColor="@color/colorTextColor"
+                    android:layout_gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorTextColor"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/imgAnhBV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/txtNoiDungBV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:justificationMode="inter_word"
+                android:text="Nội dung"
+                android:textColor="@color/colorTextColor" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/imgLuuBaiViet"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/bookmark"
+                    android:layout_marginRight="240dp"/>
+
+                <TextView
+                    android:id="@+id/txtDiemBaiVietDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="111"
+                    android:textColor="@color/colorTextColor"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <ImageView
+                    android:id="@+id/btnUpVoteBaiViet"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/upvote"
+                    android:layout_marginLeft="10dp"/>
+
+                <ImageView
+                    android:id="@+id/btnDownVoteBaiViet"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/downvote"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtBinhLuanBV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorBorder"
+                android:ems="10"
+                android:hint="Viết bình luận của bạn..."
+                android:inputType="textMultiLine"
+                android:textColor="@color/colorTextColor"
+                android:textColorHint="@color/colorTextColor" />
+
+            <Button
+                android:id="@+id/btnGuiBLBaiViet"
+                android:onClick="guiBinhLuanBaiViet"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:background="@drawable/border_button"
+                android:text="Gửi"
+                android:textColor="@color/colorTextColor"
+                android:layout_marginBottom="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtSoBLBV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bình luận"
+                    android:textColor="@color/colorBtnRegister"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Sắp xếp theo:"
+                    android:textColor="@color/colorTextColor"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerBLBV"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorTextColor"
+                android:layout_marginTop="15dp"
+                />
+
+
+
+            <com.example.util.MyListView
+                android:id="@+id/lvBinhLuanBV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+            </com.example.util.MyListView>
+
+            <TextView
+                android:id="@+id/txtNoCommentBV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text=""
+                android:textColor="@color/colorTextColor" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

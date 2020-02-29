@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundRegister"
+    android:orientation="vertical"
+    tools:context=".DangBaiVietActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtTieuDeDBV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tiêu đề"
+                android:textColorHint="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/colorBackgroundRegister"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorTextColor"
+                android:layout_marginBottom="20dp"/>
+
+
+            <EditText
+                android:id="@+id/edtNoiDungDBV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nội dung bài viết..."
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:backgroundTint="@color/colorBackgroundRegister"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorTextColor"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="50dp"/>
+
+            <Spinner
+                android:id="@+id/spnDanhMucDBV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                tools:listitem="@android:layout/simple_list_item_1"/>
+
+            <ImageView
+                android:id="@+id/imgAnhDBV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/anhbiabaiviet"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btnDangBaiDBV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorBtnRegister"
+                android:layout_marginBottom="10dp"
+                android:text="Đăng bài"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundRegister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgUserBLBV"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baiviet"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/txtUserBLBV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lê Quốc Hưng"
+            android:textColor="@color/colorTextColor"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/txtNgayBLBV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11/11/2019"
+            android:textColor="@color/colorBorder"
+            android:layout_gravity="center"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/txtBLBV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:textColor="@color/colorTextColor"
+        android:layout_marginTop="10dp"
+        android:text=""/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/txtDiemBLBV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/colorBtnRegister"
+            android:text="10 điểm"
+            android:layout_gravity="right"/>
+
+        <ImageView
+            android:id="@+id/imgUpVoteBLBV"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/upvote"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"/>
+        <ImageView
+            android:id="@+id/imgDownVoteBLBV"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/downvote"/>
+
+    </LinearLayout>
+
+</LinearLayout>

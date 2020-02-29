@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pratap.cardviews1.MainActivity">
+    <item
+        android:id="@+id/movies_bar"
+        app:showAsAction="always|withText"
+        android:title="Phim">
+    </item>
+    <item
+        android:id="@+id/PheClub_bar"
+        app:showAsAction="always|withText"
+        android:title="Phê Club">
+    </item>
+    <item
+        android:id="@+id/search_bar"
+        android:title=""
+        android:icon="@drawable/icon_search"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/createPost"
+        android:title=""
+        android:icon="@drawable/icon_register"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/SignIn"
+        android:title=""
+        android:icon="@drawable/login"
+        app:showAsAction="always">
+    </item>
+
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhimActivity"
+    android:background="@color/colorBackgroundRegister">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Tất cả phim"
+            android:textColor="@color/colorBtnRegister"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorBtnRegister"
+            android:text="Bài viết nổi bật"
+            android:textColor="@color/colorBtnRegister"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edtSearchPhim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorTextColor"
+            android:hint="Tìm theo tên"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:textColor="@color/colorTextColor"
+            android:textColorHint="@color/colorTextColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thể loại"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorTextColor"
+                android:textSize="14dp" />
+
+            <Spinner
+                android:id="@+id/spTheLoai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:listitem="@android:layout/simple_list_item_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sắp xếp theo"
+                android:textColor="@color/colorTextColor" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:listitem="@android:layout/simple_list_item_1"/>
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gvPhim"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"/>
+
+        <TextView
+            android:id="@+id/txtNotFoundPhim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTextColor"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

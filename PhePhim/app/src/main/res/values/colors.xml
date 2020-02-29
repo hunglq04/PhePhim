@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorButtonSignIn">#6F0B30</color>
+    <color name="colorTextButtonSingIn">#FFFFFF</color>
+    <color name="colorBackgroundRegister">#21282F</color>
+    <color name="colorBtnRegister">#63BEE3</color>
+    <color name="colorUserName">#4C5585</color>
+    <color name="colorToolBar">#14181C</color>
+    <color name="colorBorder">#445566</color>
+    <color name="colorTextColor">#BBCCDD</color>
+</resources>

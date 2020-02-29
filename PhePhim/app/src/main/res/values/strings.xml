@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PhePhim</string>
+    <string name="title_activity_phim_detail">PhimDetailActivity</string>
+    <string name="large_text">
+        "“Không gì cả! Tôi chỉ là một cậu nhóc đến từ Broklyn”. Đó sẽ luôn là câu trả lời của Steve khi được hỏi cậu là ai, điều gì đã khiến cậu trở nên đặc biệt.\n\n"
+
+        "Với một ý chí sắt đá, Steve luôn chọn một con đường thẳng băng đó là đối đầu trực diện với mọi thử thách anh gặp phải. Anh đã từng bị nhừ đòn bởi một tên to xác, nhưng vẫn gượng dậy mạnh mẽ với câu nói nổi tiếng “I can do this all day”. Anh cũng sẵn sàng dùng thân mình che quả lựu đạn cho mọi người dù đó chỉ quả lựu đạn giả của cấp trên để thử lòng những người lính trẻ tuổi. Cho đến khi thở thành Captain America, anh đã không ngần ngại một mình tiến vào hang ổ Hydra để cứu người bạn thân Bucky và những người lính bị giam giữ. Để rồi qua những thử thách đó, lý tưởng của anh ngày một lớn dần, anh không sợ hãi lùi bước kể cả khi buộc phải hi sinh mạng sống của chính mình.\n\n"
+
+        "Trong lần giải cứu Bucky khỏi trụ sở Hydra đang dần bị phá hủy, 2 người đã bị dồn vào chân tường và chỉ có độc nhất một  lối thoát, Cap đã nhường Bucky đi qua trước khi chính lối thoát đó cũng bị phá hủy. Sau đó anh giục cậu bạn thân chạy đi nhanh nhưng 2 người đều “cứng đầu” không bỏ lại nhau. May mắn cả 2 và những người lính bị bắt đã trở về thành công.\n\n"
+
+        "Một đội được lập ra gồm “Cap và những người bạn” để tiêu diệt các căn cứ của Hydra. Cũng lúc này, anh được trao cho một chiếc khiên đặc biệt, không chỉ ở chỗ được làm từ chất liệu bền nhất và gần như không thể bị phá vỡ, mà còn ở việc chiếc khiên là biểu tượng cho sự bảo vệ chính nghĩa, mang trên mình hình ảnh ngôi sao cùng 3 màu xanh, đỏ, trắng là tượng trưng cho xứ sở cờ hoa. Điều đó giải thích tại sao anh luôn giữ chiếc khiên bên mình.\n\n"
+
+        "Trong nỗ lực chặn đứng kế hoạch san bằng nước Mỹ của Red Skull bằng chiếc máy bay chở đầy bom Hydra, Cap quyết định sẽ lao chiếc máy bay xuống Bắc Cực để cứu mọi người khi thời gian lúc đó không cho phép. Trong mấy phút ít ỏi còn lại, anh chỉ kịp gửi lại vài lời yêu thương với người tình là đặc vụ Carter. Carter cố gắng liên lạc lại, và rồi đổ gục trong nước mắt trước bộ đàm. Người anh hùng đã bỏ lại sau lưng tất cả để đem lại hòa bình cho nước Mỹ.\n\n"
+
+
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

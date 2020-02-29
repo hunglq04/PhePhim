@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackgroundRegister"
+    tools:context=".BaiVietActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar_guest"
+        android:visibility="visible"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpBaiViet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tlBaiViet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="@color/colorBtnRegister"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/colorBtnRegister"
+        app:tabTextColor="@color/colorTextColor" />
+
+</LinearLayout>

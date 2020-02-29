@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroundRegister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imgUserBLP"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baiviet"
+            android:layout_marginRight="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/txtUserBLP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lê Quốc Hưng"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/colorTextColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNgayBLP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11/11/2019"
+                android:textColor="@color/colorBorder"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/yellowstart"/>
+
+        <TextView
+
+            android:id="@+id/txtDiemPhimBLP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="30dp"
+            android:text="10"
+            android:textColor="@color/colorTextColor"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/txtNoiDungBinhLuaBLP"
+        android:justificationMode="inter_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextColor"
+        android:layout_marginTop="10dp"
+        android:text="Đây vừa là bộ phim Người Nhện hay nhất từ trước đến giờ mình từng được xem, vừa là một trong những phim siêu anh hùng nói chung xuất sắc nhất được làm ra. Thêm vào đó, phần hình ảnh và âm thanh của Spiderverse đã đẩy phim lên 1 tầm cao mới. Nhất định mình sẽ xem lại lúc high khi có bản đẹp."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginBottom="10dp">
+        <TextView
+
+            android:id="@+id/txtDiemBLP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textColor="@color/colorBtnRegister"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginRight="10dp"
+            android:gravity="right"/>
+        <ImageView
+            android:id="@+id/imgUpVoteBLP"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/upvote"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"/>
+
+        <ImageView
+
+            android:id="@+id/imgDownVoteBLP"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/downvote" />
+    </LinearLayout>
+
+</LinearLayout>
